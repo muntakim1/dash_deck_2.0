@@ -1,0 +1,40 @@
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Development folders and files
+public
+src
+scripts
+config
+.travis.yml
+CHANGELOG.md
+README.md
+
+# Python stuff
+demos
+tests
+*__pycache__*
+usage.py
+usage-pdk.py
+setup.py
+
+dash_deck/*hmr.js
+dash_deck/*hmr.json
+dash_deck/output.js
+inst/deps/*hmr.js
+inst/deps/*hmr.json
+inst/deps/output.js
